@@ -1,197 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ram kiran Randhi- Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <script defer src="script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ram kiran Randhi | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">Ram kiran Randhi</div>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#education">Education</a>
-                <a href="#certifications">Certifications</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </div>
-            <div class="hamburger">&#9776;</div>
-        </div>
-    </nav>
 
-    <header class="hero">
-        <div class="hero-container">
-            <img src="Images.jpg" alt="Ram kiran Randhi Profile Picture" class="profile-img">
-            <div class="hero-content">
-                <h1>Ram kiran Randhi</h1>
-                <h2>Java Backend & AI/ML Enthusiast</h2>
-                <div class="hero-buttons">
-                    <a href="Resumes\Ram kiran Randhi- AIML- 2026 - Resume main.pdf" download class="btn btn-primary">Download Resume</a>
-                    <a href="#contact" class="btn btn-outline">Contact Me</a>
-                </div>
-            </div>
-        </div>
-    </header>
+  <!-- HERO SECTION -->
+  <section class="hero section">
+    <div class="hero-container">
+      <img src="Images.jpg" alt="Ramkiran Randhi" class="profile-img">
+      <div class="hero-text">
+        <h1>Hi, I'm <span>Ram kiran Randhi</span></h1>
+        <p>B.Tech in Artificial Intelligence & Machine Learning (2022–2026)</p>
+        <p>Kommuri Pratap Reddy Institute of Technology, Hyderabad</p>
+        <p>
 
-    <section id="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <p class="about-content">
+        </p>
+        <a href="#about" class="btn">Explore My Portfolio</a>
+      </div>
+    </div>
+  </section>
 
-                Iam Ram kiran Randhi, A Detail-oriented B-Tech student skilled in Java, backend development, and AI/ML, seeking an entry-level role to leverage 
-programming and analytical skills for real-world solutions and organizational growth
-            </p>
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section alt">
+    <h2>About Me</h2>
+    <div class="card-border">
+      <p>
+        I am an enthusiastic AI & ML student passionate about designing and developing intelligent systems and efficient web solutions. With strong experience in Java Full Stack Development and Machine Learning projects, I blend analytical and programming skills to deliver data-driven, impactful results. I aim to apply my knowledge to real-world challenges and contribute to innovative technological advancements.
+      </p>
+    </div>
+  </section>
+ <!-- EDUCATION SECTION -->
+<section id="education" class="section">
+  <h2>Education</h2>
+  <div class="education-grid">
+
+    <div class="education-card card-border">
+      <h3>Bachelor of Technology in AI & ML</h3>
+      <p>Kommuri Pratap Reddy Institute of Technology, Hyderabad</p>
+      <p><strong>2022 – 2026</strong> | CGPA: 7.5</p>
+    </div>
+
+    <div class="education-card card-border">
+      <h3>Board of Intermediate Education</h3>
+      <p>Narayana Junior College, Hyderabad</p>
+      <p><strong>2020 – 2022</strong> | Marks: 880/1000</p>
+    </div>
+
+    <div class="education-card card-border">
+      <h3>Secondary School Education</h3>
+      <p>Bhashyam High School</p>
+      <p><strong>2019 – 2020</strong> | GPA: 9.8</p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+          <div class="card-border">Java</div>
+          <div class="card-border">Python</div>
+          <div class="card-border">HTML, CSS</div>
+          <div class="card-border">Spring & Spring Boot</div>
+          <div class="card-border">PostgreSQL</div>
+          <div class="card-border">MySQL</div>
+          <div class="card-border">Postman API </div>
+          <div class="card-border">Git & GitHub</div>
+          <div class="card-border">Data Structures and Algorithm </div>
+          <div class="card-border">AI & ML Concepts</div>
         </div>
+  </section>
+
+    <section id="Platforms" class="section">
+        <h2>Platforms and IDE's</h2>
+        <div class="skills-grid">
+            <div class="card-border">Eclipse IDE</div>
+            <div class="card-border">Visual Studio Code</div>
+            <div class="card-border">MySQL Workbench</div>
+            <div class="card-border">Jupyter Notebook</div>
+            <div class="card-border">pgAdmin4</div>
     </section>
 
-    <section id="skills">
-        <div class="container">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills-container">
-                <span class="skill-tag">Java (Core)</span>
-                <span class="skill-tag">Python</span>
-                <span class="skill-tag">Spring Boot</span>
-                <span class="skill-tag">Data Structures & Algorithms</span>
-                <span class="skill-tag">Machine Learning</span>
-                <span class="skill-tag">HTML & CSS</span>
-                <span class="skill-tag">MySQL</span>
-                <span class="skill-tag">PostgreSQL</span>
-                <span class="skill-tag">NumPy, Pandas, Scikit-learn</span>
-                <span class="skill-tag">Git & GitHub</span>
-                <span class="skill-tag">Postman (API Testing)</span>
-                <span class="skill-tag">Eclipse & VS Code</span>
-            </div>
-        </div>
-    </section>
+  <!-- PROJECTS -->
+  <section id="projects" class="section alt">
+    <h2>Projects</h2>
+    <div class="project-list">
 
-    <section id="education">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="education-card">
-                <h3>Bachelor of Technology in AI & ML</h3>
-                <p>Kommuri Pratap Reddy Institute of Technology </p>
+        <div class="project-card">
+        <h3>Java Backend Project</h3>
+        <p>Built a responsive CRUD operation system using Spring Boot and PostgreSQL  backend  
+        for seamless user experience.</p>
+                <a href=https://github.com/Ramkiran118/Backend-Project> view Repository</a>
+
+      </div>
+
+      <div class="project-card">
+        <h3>Water Analysis using Weighted Regression</h3>
+        <p>Developed a research-based project using weighted regression to analyze water quality datasets 
+        and identify contamination trends for sustainable resource management.</p>
+                <a href=https://github.com/Ramkiran118/Mini--Project> view Repository</a>
+                
             </div>
-            <div class="education-card">
-                <h3>Board of Intermediate Education </h3>
-                <p>Narayana Junior College</p>
             
-            </div>
-            <div class="education-card">
-                <h3>Secondary School of Education </h3>
-                <p>Bhashyam High School </p>
-            </div>
-        </div>
-    </section>
+            <div class="project-card">
+                <h3>Crop Yield Prediction using ML</h3>
+                <p>Implemented Logistic Regression and SVM with Python, NumPy, Pandas, and Scikit-learn to predict 
+                    crop productivity based on agricultural data.</p>
+                    <a href=https://github.com/Ramkiran118/Micro-Project> view Repository</a>
 
-    <section id="certifications">
-        <div class="container">
-            <h2 class="section-title">Certifications & Achievements</h2>
-            <div class="certifications-grid">
-                <div class="certification-card">
-                    <h3>Finalist - V-Hack 2k25 Hackathon</h3>
-                    <p>Achieved Top 10 rank out of 140 teams </p>
-                    <p>Advanced to the final round by solving real-world problems through teamwork and technical skills.</p>
-                </div>
-                <div class="certification-card">
-                    <h3>Java (Basic) Certification</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <div class="experience-list">
+      <div class="exp-card">
+        <h3>TNS Foundation – Backend Developer </h3>
+        <p>• Developed a backend application with Java and Spring Boot, implementing CRUD operations and optimized business logic.</p>
+        <p>• Integrated PostgreSQL database for efficient data management and ensured data integrity.</p> 
+        <p>• Built  and tested RESTful APIs using Postman, ensuring reliability and scalability.</p>
+        <a href=https://github.com/Ramkiran118/Backend-Project> view Repository</a>
+      </div>
+      <div class="exp-card">
+        <h3>Student Researcher – Water Quality Analysis</h3>
+        <p>• Applied AI-driven weighted regression on time, discharge, and seasonality data to analyse and predict water quality trends.</p> 
+        <p>• Developed models that provided insights for sustainable water resource management.</p>
+        <a href=https://github.com/Ramkiran118/Mini--Project> view Repository</a>
+      </div>
+      <div class="exp-card">
+        <h3>AI for Students: Build Your Own Generative AI Model — NxtWave</h3>
+        <p>• Successfully completed a hands-on workshop focused on building generative AI models using modern AI frameworks.</p>
+
+        <p>• Gained practical experience in prompt engineering, model fine-tuning, and real-world AI application development.</p>
+
+        <p>• Guided by AI Expert Mr. Abhinav Devaguptapu, under the leadership of Rahul Attuluri (CEO, NxtWave).</p>
+                <a href="nextwave.jpg"> Certificate </a>
+
+      </div>
+
+      <div class="exp-card">
+        <h3>Team Lead – V-Hack 2k25 Finalist</h3>
+         <p>• Led a team of developers to secure Top 10 among 140+ teams. Recognized for problem-solving, innovation, 
+        and collaborative teamwork.</p>
+                 <a href="Certificate of Student Ambessador by Microsoft.pdf">Certificate</a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section alt">
+    <h2>Achievements</h2>
+    <div class="achievement-grid">
+      <div class="card-border">
+        <h3>🏆 V-Hack 2k25 Finalist</h3>
+        <p>Secured Top 10 out of 140 teams with an innovative machine learning-based solution.</p>
+         <a href="Certificate of Student Ambessador by Microsoft.pdf">Certificate</a>
+      </div>
+      <div class="card-border">
+        <h3>🎓 Microsoft Learn Student Ambassador</h3>
+        <p>Organized a web development workshop and mentored peers in frontend development (Sep 2024).</p>
+        <a href="web development .pdf">Certificate</a>
+      </div>
+      <div class="card-border">
+        <h3>💻 HackerRank Java (Basic)</h3>
+        <p>Certified in Java Basics on HackerRank (Feb 2025).</p>
+        <h3>Java (Basic) Certification</h3>
                     
-                    <a href="java basic certificate (1).pdf">Certificate</a>
-                </div>
-                <div class="certification-card">
-                    <h3>Web Development Workshop</h3>
-                    <p>Microsoft Learn Student Ambassador Program </p>
-                    <a href="web development .pdf">Certificate</a>
-                </div>
-                <div class="certification-card">
-                    <h3>Microsoft Learn Student Ambassador</h3>
-                    <p>Ambassador Program </p>
-                    <a href="Certificate of Student Ambessador by Microsoft.pdf">Certificate</a>
-                </div>
-                <div class="certification-card">
-                    <h3>Project Completion Certificate</h3>
-                    <p>KPRIT </p>
-                    <a href="Ramkiran.project (1).pdf">Certificate</a>
-                </div>
-                </div>
-        </div>
-    </section>
+        <a href="java basic certificate (1).pdf">Certificate</a>
+      </div>
+    </div>
+  </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2 class="section-title">Experience & Projects</h2>
+  <!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact Me</h2>
+  <div class="contact-container">
+    <!-- Left: Info -->
+    <div class="contact-info card-border">
+      <h3>Feel free to get in touch with me for collaboration, internships, or project discussions!</h3>
+      <p><strong>Email:</strong> <a href="mailto:randhiramkiran@gmail.com">randhiramkiran@gmail.com</a></p>
 
-            <div class="experience-card">
-                <h3>Backend Developer</h3>
-                <div class="company">TNS Foundation</div>
-                <div class="period">Role: Backend Development | Technologies: Java, Spring Boot, PostgreSQL, Postman</div>
-                <ul>
-                   
-                    <li> Developed a backend application with Java and Spring Boot, implementing CRUD operations and optimized business logic. </li>
-                    <li> Integrated PostgreSQL database for efficient data management and ensured data integrity.  </li>
-                    <li> Built  and tested RESTful APIs using Postman, ensuring reliability and scalability. </li>
-                    <li> Soft Skills: Communication, Teamwork, Problem-Solving, Time Management </li>
-                
-                
-                </ul>
-            </div>
-
-            <div class="experience-card">
-                <h3>Long-Term Water Quality Analysis using Weighted Regression</h3>
-                <div class="company">Personal Project</div>
-                <div class="period">Technologies: AI/ML, Python</div>
-               <p> Applied AI-driven weighted regression on time, discharge, and seasonality data to analyse and predict water quality trends. Developed models that provided insights for sustainable water resource management. </p>
-            </div>
-
-            <div class="experience-card">
-                <h3>Crop Yield Prediction Using Machine Learning</h3>
-                <div class="company">Academic/SAK Informatics Project</div>
-                <div class="period">Technologies: Python, NumPy, Pandas, Seaborn, Scikit-learn</div>
-                <ul>
-                    ]<li>Developed a crop yield prediction model using Python, applying classification algorithms like Logistic Regression and SVM. </li>
-                    <li>Executed data preprocessing, feature selection, and visualization to improve model accuracy. Optimized performance and real-world dataset validation to support data-driven agricultural planning.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2 class="section-title">Contact Me</h2>
-            <form class="contact-form">
-                <input type="text" placeholder="Name" class="form-input" required>
-                <input type="email" placeholder="Email" class="form-input" required>
-                <textarea placeholder="Message" class="form-input" required></textarea>
-                <button type="submit" class="submit-btn">Send Message</button>
-            </form>
-        </div>
-    </section>
-    <footer class="footer">
-        <div class="container footer-container">
-            <div class="footer-text">
-                <p>© 2025 Ramkiran Randhi. All Rights Reserved.</p>
-            </div>
-            <div class="social-links">
-                <a href="https://github.com/Ramkiran118" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/ramkiran-randhi-67a3b3287" target="_blank" aria-label="LinkedIn"><i
-                        class="fab fa-linkedin"></i></a>
-                <a href="https://www.hackerrank.com/ramkiranrandhi" target="_blank" aria-label="HackerRank"><i class="fab fa-hackerrank"></i></a>
-                <a href="https://www.leetcode.com/u/Ramkiran118" target="_blank" aria-label="LeetCode"><i class="fas fa-code"></i></a>
-                <a href="mailto:ramkiranrandhi@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
-            </div>
-        </div>
-    </footer>
-
-</body>
-
-</html>
-
-
-
-
+    <!-- Right: Form -->
+    <form class="contact-form card-border" onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+      <div class="social-links">
+        
+         <a href="https://www.linkedin.com/in/ramkiran-randhi-67a3b3287" target="_blank">LinkedIn</a> |
+         <a href="https://github.com/Ramkiran118" target="_blank">GitHub</a> |
+         <a href="https://leetcode.com/u/Ramkiran118/" target="_blank">LeetCode</a> 
+       </div>
+      <p id="form-status"></p>
+    </form>
+  </div>
+</section>
